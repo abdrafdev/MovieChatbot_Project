@@ -1,0 +1,36 @@
+# Core ML/DL libraries
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+peft>=0.7.0
+
+# Image processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Dataset handling
+datasets>=2.14.0
+kaggle>=1.5.16
+
+# Evaluation metrics
+pytorch-fid>=0.3.0
+scikit-image>=0.21.0
+
+# API and web
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+matplotlib>=3.7.0
+safetensors>=0.4.0
+
+# Optional: for better performance
+xformers>=0.0.22  # Memory efficient attention (if compatible with your CUDA version)
+bitsandbytes>=0.41.0  # For 8-bit optimizers
